@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserProfileApi", "UserProfileApi\UserProfileApi.csproj", "{3160813A-C073-41BF-89BC-7701909B30A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampaignApi", "CampaignApi\CampaignApi.csproj", "{FC3B0DF0-6476-4CBA-84BA-42B5FC2EC029}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3160813A-C073-41BF-89BC-7701909B30A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3160813A-C073-41BF-89BC-7701909B30A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3160813A-C073-41BF-89BC-7701909B30A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3160813A-C073-41BF-89BC-7701909B30A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC3B0DF0-6476-4CBA-84BA-42B5FC2EC029}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC3B0DF0-6476-4CBA-84BA-42B5FC2EC029}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC3B0DF0-6476-4CBA-84BA-42B5FC2EC029}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC3B0DF0-6476-4CBA-84BA-42B5FC2EC029}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
