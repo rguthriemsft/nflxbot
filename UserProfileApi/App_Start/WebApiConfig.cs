@@ -25,7 +25,7 @@ namespace UserProfileApi
 
             // New code:
             ODataModelBuilder builder = new ODataConventionModelBuilder();
-            builder.EntitySet<UserModel>("Users");
+            builder.EntitySet<UserProfile>("UserProfiles");
             config.MapODataServiceRoute(
                 routeName: "ODataRoute",
                 routePrefix: null,
